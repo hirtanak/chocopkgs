@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>azurenvidiagriddriver-win10</id>
+    <version>4.3.1</version>
+    <title>azurenvidiagriddriver-win10 (Install)</title>
+    <authors>NVIDIA Corporation</authors>
+    <projectUrl>https://www.nvidia.com/</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/hirtanak/scripts/master/NVIDIAlogo.gif</iconUrl>
+    <licenseUrl>https://www.nvidia.com/content/DriverDownload-March2009/licence.php?lang=us</licenseUrl>
+    <packageSourceUrl>https://github.com/hirtanak/chocopkgs/azurenvidiagriddriver-win10</packageSourceUrl>
+    <tags>azurenvidiagriddriver-win10 azure NVIDIA GRID GPU N-series ws2019 windows10</tags>
+    <summary>NVIDIA GRID Driver for Azure N series</summary>
+    <description>
+    
+    ## Parameters
+    
+    parameters can use the following parameters. you can make sure setup.cfg in exe file.
+    
+    | enableTelemetry | EnableTelemetry |
+    | clean | CleanInstall | 
+    | prestage | PrestageInstall |
+    | validate |  ValidationInstall |
+    | forcereboot | RebootRequired |
+    | noreboot | IgnoreReboot |
+    | k | RebootRequired |
+    | n | IgnoreReboot |
+    | passive | ProgressOnly |
+    |noeula | SkipEula |
+    |nofinish | SkipFinish |
+    |ignorepnp | IgnorePnpFlag |
+    |progresswitheula | ProgressWithEula |
+
+    ## Install
+
+    cinst -y azurenvidiagriddriver-win10
+
+    </description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
