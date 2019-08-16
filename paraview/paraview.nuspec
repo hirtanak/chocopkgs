@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>paraview</id>
+    <version>5.6.1</version>
+    <title>paraview (Install)</title>
+    <authors>Kitware, Inc.</authors>
+    <projectUrl>https://www.kitware.com/platforms/#paraview</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/hirtanak/scripts/master/paraviewloggo.gif</iconUrl>
+    <licenseUrl>https://www.paraview.org/paraview-license</licenseUrl>
+    <packageSourceUrl></packageSourceUrl>
+    <copyright>Copyright (c) 2005-2017 National Technology and Engineering Solutions of Sandia, LLC (NTESS), Kitware Inc. Sandia National Laboratories</copyright>
+    <tags>Kitware paraview postviewer opencae</tags>
+    <summary>OpenSource post viewer for CAE</summary>
+    <description>OpenSource post viewer for CAE
+    
+    paraview description. https://www.paraview.org/
+
+    ## Paramaters
+
+    `cinst -y praview -s`
+ 
+    </description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
